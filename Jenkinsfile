@@ -12,7 +12,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'gradle --version'
+                sh 'python --version'
             }
         }
     }
